@@ -30,6 +30,7 @@ public class AllureReport {
 	
 	@Test
 	public void closeapp() {
+		
 		driver.close();
 	}
 }
