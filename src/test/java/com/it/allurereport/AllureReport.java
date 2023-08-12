@@ -21,7 +21,7 @@ public class AllureReport {
 
 		
 		   driver.findElement(By.xpath("//a[@class='ico-login']")).click();
-		driver.findElement(By.xpath("//a[@class='i']")).click();
+		//driver.findElement(By.xpath("//a[@class='i']")).click();
            driver.findElement(By.xpath("//input[@class='email']")).sendKeys("techmangeshpatil31@gmail.com");
            driver.findElement(By.xpath("//input[@class='password']")).sendKeys("8888459441");
            driver.findElement(By.xpath("//button[@class='button-1 login-button']")).click();      
