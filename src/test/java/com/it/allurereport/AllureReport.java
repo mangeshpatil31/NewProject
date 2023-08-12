@@ -18,7 +18,8 @@ public class AllureReport {
 		driver=new ChromeDriver();
 		driver.get("https://demo.nopcommerce.com/");
 		driver.manage().window().maximize();
-		      
+
+		
 		   driver.findElement(By.xpath("//a[@class='ico-login']")).click();
            driver.findElement(By.xpath("//input[@class='email']")).sendKeys("techmangeshpatil31@gmail.com");
            driver.findElement(By.xpath("//input[@class='password']")).sendKeys("8888459441");
